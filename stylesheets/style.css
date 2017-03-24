@@ -67,7 +67,7 @@ nav .nav-wrapper .brand-logo img {
   width: 13%;
   padding: 10px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   /* line 73, ../sass/style.scss */
   nav .nav-wrapper .brand-logo img {
     width: 50%;
