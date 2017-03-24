@@ -1,0 +1,170 @@
+/* line 1, ../sass/reset.scss */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* line 17, ../sass/style.scss */
+.royal-text {
+  color: #4183D7;
+}
+
+/* line 22, ../sass/style.scss */
+.title:after {
+  content: '';
+  display: block;
+  width: 30px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-bottom: 2px solid royalblue;
+  border-radius: 8px;
+}
+
+/* line 34, ../sass/style.scss */
+.title-white:after {
+  content: '';
+  display: block;
+  width: 40px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-bottom: 2px solid white;
+  border-radius: 8px;
+}
+
+/* line 45, ../sass/style.scss */
+.btn-large {
+  border-radius: 1000px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 15spx;
+  background-color: white;
+  color: #64AFD2;
+  transition: .3s;
+  border: 1px solid white;
+  box-shadow: none;
+  letter-spacing: .5px;
+  padding: 0 35px;
+}
+/* line 57, ../sass/style.scss */
+.btn-large:hover {
+  background-color: transparent;
+  color: white;
+  transition: .3s;
+  box-shadow: none;
+  border: 1px solid white;
+  letter-spacing: .5px;
+}
+
+/* line 68, ../sass/style.scss */
+nav {
+  background-color: transparent;
+  box-shadow: none;
+}
+/* line 73, ../sass/style.scss */
+nav .nav-wrapper .brand-logo img {
+  width: 13%;
+  padding: 10px;
+}
+@media screen and (max-width: 320px) {
+  /* line 73, ../sass/style.scss */
+  nav .nav-wrapper .brand-logo img {
+    width: 50%;
+    padding: 15px;
+  }
+}
+
+/* line 87, ../sass/style.scss */
+#index-banner {
+  background-color: #f3f6fc;
+  background: linear-gradient(135deg, #4183D7, #85d8ce);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  -webkit-clip-path: url("#clipping");
+  clip-path: url("#clipping");
+  z-index: 1;
+  position: relative;
+  padding-bottom: 100px;
+}
+/* line 99, ../sass/style.scss */
+#index-banner .section .container h1 {
+  font-size: 3em;
+}
+
+/* line 109, ../sass/style.scss */
+#about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: white;
+  height: 320px;
+}
+/* line 115, ../sass/style.scss */
+#about .container .section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #fcfcfc;
+  box-shadow: 5px 5px 50px rgba(67, 38, 100, 0.15);
+  margin-top: -230px;
+  z-index: 3;
+  position: relative;
+  height: 500px;
+}
+
+/* line 131, ../sass/style.scss */
+#contact {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #4183D7, #85d8ce);
+  color: white;
+  z-index: 2;
+}
+
+/* line 142, ../sass/style.scss */
+#timeline {
+  background-color: #f3f6fc;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* line 150, ../sass/style.scss */
+#sponsor {
+  background-color: white;
+  padding: 100px 0;
+}
+/* line 153, ../sass/style.scss */
+#sponsor .container {
+  background: linear-gradient(135deg, #4183D7, #85d8ce);
+}
+
+/* line 160, ../sass/style.scss */
+.page-footer {
+  padding-top: 80px;
+  background-color: white;
+  background: linear-gradient(135deg, #4183D7, #85d8ce);
+  -webkit-clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
+  -webkit-clip-path: url("#clipping1");
+  clip-path: url("#clipping1");
+  z-index: 1;
+  position: relative;
+}
+/* line 176, ../sass/style.scss */
+.page-footer .container .row div a {
+  color: white;
+  padding: 0 5px;
+}
+/* line 183, ../sass/style.scss */
+.page-footer .footer-copyright {
+  padding: 0;
+}
+/* line 188, ../sass/style.scss */
+.page-footer .footer-copyright .container p {
+  color: white;
+  line-height: 1em;
+}
+/* line 191, ../sass/style.scss */
+.page-footer .footer-copyright .container p a {
+  color: white;
+  padding: 0 5px;
+}
