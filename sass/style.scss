@@ -4,6 +4,7 @@ $royalblue: #4183D7;
 $middleblue: #3498db;
 $pictonblue: #59ABE3;
 $break-small: 480px;
+$break-medium: 768px;
 $break-large: 1200px;
 //mixin
 @mixin border-radius($radius) {
@@ -11,6 +12,13 @@ $break-large: 1200px;
     -moz-border-radius: $radius;
     -ms-border-radius: $radius;
     border-radius: $radius;
+}
+
+@mixin transition($transition) {
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -ms-transition: $transition;
+    transition: $transition;
 }
 
 //reusable 
@@ -34,7 +42,7 @@ $break-large: 1200px;
     &:after {
         content: '';
         display: block;
-        width: 40px;
+        width: 30px;
         margin: 0 auto;
         margin-top: 20px;
         border-bottom: 2px solid white;
@@ -49,7 +57,7 @@ $break-large: 1200px;
     font-size: 15spx;
     background-color: white;
     color: #64AFD2;
-    transition: .3s;
+    transition: all .3s ease-in-out;
     border: 1px solid white;
     box-shadow: none;
     letter-spacing: .5px;
@@ -57,7 +65,7 @@ $break-large: 1200px;
     &:hover {
         background-color: transparent;
         color: white;
-        transition: .3s;
+        transition: all .3s ease-in-out;
         box-shadow: none;
         border: 1px solid white;
         letter-spacing: .5px;
@@ -68,16 +76,52 @@ $break-large: 1200px;
 nav {
     background-color: transparent;
     box-shadow: none;
-    .nav-wrapper {
-        .brand-logo {
-            img {
-                width: 13%;
-                padding: 10px;
-                
-                @media screen and (max-width: $break-small) {
-                    width: 50%;
-                    padding: 15px;
+    ul {
+        li {
+            .active {
+                &:after {
+                    content: '';
+                    display: block;
+                    width: 20px;
+                    margin: 0 auto;
+                    margin-top: -15px;
+                    border-bottom: 1px solid white;
+                    border-radius: 8px;
+                    @include transition(all .3s ease-in-out);
                 }
+            }
+            a {
+                @include transition(all .9s ease-in-out);
+                &:hover {
+                    background-color: transparent;
+                    &:after {
+                        content: '';
+                        display: block;
+                        width: 20px;
+                        margin: 0 auto;
+                        margin-top: -15px;
+                        border-bottom: 1px solid white;
+                        border-radius: 8px;
+                        @include transition(all .3s ease-in-out);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.nav-wrapper {
+    .brand-logo {
+        img {
+            width: 13%;
+            padding: 10px;
+            @media screen and (max-width: $break-small) {
+                width: 40%;
+                padding: 15px;
+            }
+            @media screen and (max-width: $break-medium) {
+                width: 50%;
+                padding: 15px;
             }
         }
     }
@@ -113,6 +157,7 @@ nav {
     height: 320px;
     .container {
         .section {
+            border-radius: 5px;
             padding-top: 50px;
             padding-bottom: 50px;
             background-color: #fcfcfc;
@@ -127,8 +172,8 @@ nav {
     }
 }
 
-//contact
-#contact {
+//feature
+#feature {
     padding: 100px 0;
     background: linear-gradient(135deg, #4183D7, #85d8ce);
     color: white;
@@ -144,6 +189,20 @@ nav {
     height: auto;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+//contact
+#contact {
+    color: white;
+    .container {
+        .section {
+            border-radius: 5px;
+            background: linear-gradient(135deg, #4183D7, #85d8ce);
+            margin-top: -80px;
+            box-shadow: 5px 5px 50px rgba(67, 38, 100, 0.15);
+            .row {}
+        }
+    }
 }
 
 //sponsor 
