@@ -72,6 +72,74 @@ $break-large: 1200px;
     }
 }
 
+.btn-large-blue {
+    border-radius: 1000px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 15spx;
+    background-color: #64AFD2;
+    color: white;
+    transition: all .3s ease-in-out;
+    border: 1px solid white;
+    box-shadow: none;
+    letter-spacing: .5px;
+    padding: 0 35px;
+    border: 1px solid #64AFD2;
+    &:hover {
+        background-color: transparent;
+        color: #64AFD2;
+        transition: all .3s ease-in-out;
+        box-shadow: none;
+        border: 1px solid white;
+        letter-spacing: .5px;
+        border: 1px solid #64AFD2;
+    }
+}
+
+.btn-blue {
+    border-radius: 100px;
+    // height: 45px;
+    // line-height: 45px;
+    // font-size: 15spx;
+    background-color: #64AFD2;
+    color: white;
+    transition: all .3s ease-in-out;
+    border: 1px solid white;
+    box-shadow: none;
+    // letter-spacing: .5px;
+    // padding: 0 35px;
+    border: 1px solid #64AFD2;
+    &:hover {
+        background-color: transparent;
+        color: #64AFD2;
+        transition: all .3s ease-in-out;
+        box-shadow: none;
+        border: 1px solid white;
+        letter-spacing: .5px;
+        border: 1px solid #64AFD2;
+    }
+}
+
+.file-field {
+    position: relative;
+    padding-left: 11.25px;
+    padding-right: 11.25px;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+    color: #64AFD2;
+    margin-right: 0px;
+    transition: color .3s ease;
+    text-transform: none;
+}
+
+.bodi {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+
 //navbar
 nav {
     background-color: transparent;
@@ -241,8 +309,7 @@ nav {
     }
     .footer-copyright {
         padding: 0;
-        //        background-color: transparent;
-        //        border-top: 1px solid #fafafa;
+
         .container {
             p {
                 color: white;
@@ -255,3 +322,148 @@ nav {
         }
     }
 }
+
+// login
+.main {
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background: linear-gradient(135deg, #85d8ce, #4183d7);
+
+    .main-content {
+        color: white;
+        max-width: 600px;
+        margin: 0 auto;
+        vertical-align: middle;
+        display: table-cell;
+        text-align: center;
+
+        .logo {
+            vertical-align: middle;
+            margin: 10px;
+            height: 45px;
+            width: auto;
+        }
+
+        .card {
+            width: 25%;
+            background: white;
+            color: black;
+            @media screen and (max-width: $break-small) {
+                width: 98%;
+            }
+            .card-content {
+                .card-title {}
+            }
+            .garis {
+                width: 100%;
+                height: 1px;
+                opacity: 0.2;
+                background-color: darkgrey;
+            }
+            .kanantext {
+                padding-left: 5%;
+                text-align: left;
+                padding-right: 5%;
+            }
+        }
+    }
+}
+
+//register
+#register {
+    height: 100%;
+    width: 100%;
+    display: table;
+    .main {
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background: linear-gradient(135deg, #85d8ce, #4183d7);
+
+    .main-content {
+        color: white;
+        max-width: 600px;
+        margin: 0 auto;
+        vertical-align: middle;
+        display: table-cell;
+        text-align: center;
+
+        .logo {
+            vertical-align: middle;
+            margin: 10px;
+            height: 45px;
+            width: auto;
+        }
+
+        .card {
+            width: 30%;
+            background: white;
+            color: black;
+            @media screen and (max-width: $break-small) {
+                width: 98%;
+            }
+            .card-content {
+                padding: 15px;
+                .card-title {
+                    margin-bottom: 0px;
+                }
+            }
+            .garis {
+                width: 100%;
+                height: 1px;
+                opacity: 0.2;
+                background-color: darkgrey;
+            }
+            .kanantext {
+                padding-left: 5%;
+                text-align: left;
+                padding-right: 5%;
+            }
+
+            form {
+                .row {
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}
+}
+
+//biodata
+#biodata {
+    .bg {
+        nav {
+            background: linear-gradient(135deg, #4183d7, #85d8ce);
+            padding-bottom: 6rem;
+
+            .nav-wrapper {
+                .container {
+                    .brand-logo {
+                        .logo {
+                            vertical-align: middle;
+                            margin: 10px;
+                            width: 13%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .form-biodata {
+        padding-top: 40px;
+        padding-bottom: 100px;
+
+        .title-biodata {
+            padding-bottom: 30px;
+        }
+    }
+}
+
