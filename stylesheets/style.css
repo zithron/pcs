@@ -307,7 +307,7 @@ nav ul li a:hover:after {
   padding-right: 5%;
 }
 
-.main-register {
+#main-register {
   color: white;
   text-align: center;
   height: 100%;
@@ -315,7 +315,7 @@ nav ul li a:hover:after {
   display: table;
   background: linear-gradient(135deg, #85d8ce, #4183d7);
 }
-.main-register .main-content {
+#main-register .main-content {
   color: white;
   max-width: 600px;
   margin: 0 auto;
@@ -323,29 +323,32 @@ nav ul li a:hover:after {
   display: table-cell;
   text-align: center;
 }
-.main-register .main-content .logo {
+#main-register .main-content .logo {
   vertical-align: middle;
   margin: 10px;
   height: 45px;
   width: auto;
 }
-.main-register .main-content .card {
+#main-register .main-content .card {
   width: 40%;
   background: white;
   color: black;
 }
 @media screen and (max-width: 480px) {
-  .main-register .main-content .card {
+  #main-register .main-content .card {
     width: 98%;
   }
 }
-.main-register .main-content .card .garis {
+#main-register .main-content .card .card-content {
+  padding: 15px;
+}
+#main-register .main-content .card .garis {
   width: 100%;
   height: 1px;
   opacity: 0.2;
   background-color: darkgrey;
 }
-.main-register .main-content .card .kanantext {
+#main-register .main-content .card .kanantext {
   padding-left: 5%;
   text-align: left;
   padding-right: 5%;

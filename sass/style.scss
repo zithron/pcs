@@ -375,7 +375,7 @@ nav {
 }
 
 // regisster
-.main-register {
+#main-register {
     color: white;
     text-align: center;
     height: 100%;
@@ -406,6 +406,7 @@ nav {
                 width: 98%;
             }
             .card-content {
+                padding: 15px;
                 .card-title {}
             }
             .garis {
