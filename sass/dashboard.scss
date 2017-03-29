@@ -1,7 +1,11 @@
+//variables
+$royalblue: #4183D7;
+$middleblue: #3498db;
+$pictonblue: #59ABE3;
+$niceblue: #64AFD2;
 $break-small: 480px;
 $break-medium: 768px;
 $break-large: 1200px;
-
 html,
 body {
     background-color: #fafbfc;
@@ -96,6 +100,32 @@ header {
         }
     }
 }
+//dasboard
+#dashboard {
+    padding-top: 40px;
+    .container {
+        position: relative;
+        .title-card {
+            //            line-height: 30px;
+            position: relative;
+            margin-bottom: 10px;
+            margin-top: 20px;
+            text-transform: uppercase;
+        }
+        .row {
+            border-left: 3px solid #64AFD2;
+            padding: 25px;
+            .col {
+                form {
+                    .row {
+                        border-left: none;
+                        padding: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 //biodata
 #biodata {
@@ -104,10 +134,70 @@ header {
         padding-bottom: 100px;
         .container {
             .row {
+                border-left: 3px solid #64AFD2;
+                .kiri {
+                    .headform {
+                        .judul {
+                            color: $niceblue;
+                        }
+                        form {
+                            .row {
+                                border-left: none;
+                                .input-field {
+                                    .material-icons {
+                                        color: $niceblue;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
                 .kanan {
+                    .headform {
+                        .judul {
+                            color: $niceblue;
+                        }
+                        form {
+                            .row {
+                                border-left: none;
+                                .input-field {
+                                    .material-icons {
+                                        color: $niceblue;
+                                    }
+                                }
+                            }
+                        }
+                    }
                     @media screen and (min-width: $break-small) {
                         border-left: 1px solid #e6e6e6;
-                    }     
+                    }
+                }
+            }
+        }
+    }
+}
+
+//pembayaran
+#pembayaran {
+    padding-top: 40px;
+    .container {
+        position: relative;
+        .title-card {
+            //            line-height: 30px;
+            position: relative;
+            margin-bottom: 10px;
+            margin-top: 20px;
+            text-transform: uppercase;
+        }
+        .row {
+            border-left: 3px solid #64AFD2;
+            padding: 25px;
+            .col {
+                form {
+                    .row {
+                        border-left: none;
+                        padding: 0px;
+                    }
                 }
             }
         }

@@ -79,14 +79,77 @@ header ul li .active {
   border-left: 4px solid white;
 }
 
+#dashboard {
+  padding-top: 40px;
+}
+#dashboard .container {
+  position: relative;
+}
+#dashboard .container .title-card {
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+#dashboard .container .row {
+  border-left: 3px solid #64AFD2;
+  padding: 25px;
+}
+#dashboard .container .row .col form .row {
+  border-left: none;
+  padding: 0px;
+}
+
 #biodata .form-biodata {
   padding-top: 40px;
   padding-bottom: 100px;
+}
+#biodata .form-biodata .container .row {
+  border-left: 3px solid #64AFD2;
+}
+#biodata .form-biodata .container .row .kiri .headform .judul {
+  color: #64AFD2;
+}
+#biodata .form-biodata .container .row .kiri .headform form .row {
+  border-left: none;
+}
+#biodata .form-biodata .container .row .kiri .headform form .row .input-field .material-icons {
+  color: #64AFD2;
+}
+#biodata .form-biodata .container .row .kanan .headform .judul {
+  color: #64AFD2;
+}
+#biodata .form-biodata .container .row .kanan .headform form .row {
+  border-left: none;
+}
+#biodata .form-biodata .container .row .kanan .headform form .row .input-field .material-icons {
+  color: #64AFD2;
 }
 @media screen and (min-width: 480px) {
   #biodata .form-biodata .container .row .kanan {
     border-left: 1px solid #e6e6e6;
   }
+}
+
+#pembayaran {
+  padding-top: 40px;
+}
+#pembayaran .container {
+  position: relative;
+}
+#pembayaran .container .title-card {
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+#pembayaran .container .row {
+  border-left: 3px solid #64AFD2;
+  padding: 25px;
+}
+#pembayaran .container .row .col form .row {
+  border-left: none;
+  padding: 0px;
 }
 
 .page-footer {
