@@ -307,12 +307,7 @@ nav ul li a:hover:after {
   padding-right: 5%;
 }
 
-#register {
-  height: 100%;
-  width: 100%;
-  display: table;
-}
-#register .main {
+.main-register {
   color: white;
   text-align: center;
   height: 100%;
@@ -320,7 +315,7 @@ nav ul li a:hover:after {
   display: table;
   background: linear-gradient(135deg, #85d8ce, #4183d7);
 }
-#register .main .main-content {
+.main-register .main-content {
   color: white;
   max-width: 600px;
   margin: 0 auto;
@@ -328,41 +323,32 @@ nav ul li a:hover:after {
   display: table-cell;
   text-align: center;
 }
-#register .main .main-content .logo {
+.main-register .main-content .logo {
   vertical-align: middle;
   margin: 10px;
   height: 45px;
   width: auto;
 }
-#register .main .main-content .card {
-  width: 30%;
+.main-register .main-content .card {
+  width: 40%;
   background: white;
   color: black;
 }
 @media screen and (max-width: 480px) {
-  #register .main .main-content .card {
+  .main-register .main-content .card {
     width: 98%;
   }
 }
-#register .main .main-content .card .card-content {
-  padding: 15px;
-}
-#register .main .main-content .card .card-content .card-title {
-  margin-bottom: 0px;
-}
-#register .main .main-content .card .garis {
+.main-register .main-content .card .garis {
   width: 100%;
   height: 1px;
   opacity: 0.2;
   background-color: darkgrey;
 }
-#register .main .main-content .card .kanantext {
+.main-register .main-content .card .kanantext {
   padding-left: 5%;
   text-align: left;
   padding-right: 5%;
-}
-#register .main .main-content .card form .row {
-  margin-bottom: 0px;
 }
 
 #biodata .bg nav {
