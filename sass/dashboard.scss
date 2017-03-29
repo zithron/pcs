@@ -100,6 +100,7 @@ header {
         }
     }
 }
+
 //dasboard
 #dashboard {
     padding-top: 40px;
@@ -135,12 +136,12 @@ header {
         .container {
             .row {
                 border-left: 3px solid #64AFD2;
-                .kiri {
-                    .headform {
-                        .judul {
-                            color: $niceblue;
-                        }
-                        form {
+                form {
+                    .kiri {
+                        .headform {
+                            .judul {
+                                color: $niceblue;
+                            }
                             .row {
                                 border-left: none;
                                 .input-field {
@@ -151,13 +152,11 @@ header {
                             }
                         }
                     }
-                }
-                .kanan {
-                    .headform {
-                        .judul {
-                            color: $niceblue;
-                        }
-                        form {
+                    .kanan {
+                        .headform {
+                            .judul {
+                                color: $niceblue;
+                            }
                             .row {
                                 border-left: none;
                                 .input-field {
@@ -167,9 +166,9 @@ header {
                                 }
                             }
                         }
-                    }
-                    @media screen and (min-width: $break-small) {
-                        border-left: 1px solid #e6e6e6;
+                        @media screen and (min-width: $break-small) {
+                            border-left: 1px solid #e6e6e6;
+                        }
                     }
                 }
             }

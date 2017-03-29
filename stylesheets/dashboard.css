@@ -107,26 +107,26 @@ header ul li .active {
 #biodata .form-biodata .container .row {
   border-left: 3px solid #64AFD2;
 }
-#biodata .form-biodata .container .row .kiri .headform .judul {
+#biodata .form-biodata .container .row form .kiri .headform .judul {
   color: #64AFD2;
 }
-#biodata .form-biodata .container .row .kiri .headform form .row {
+#biodata .form-biodata .container .row form .kiri .headform .row {
   border-left: none;
 }
-#biodata .form-biodata .container .row .kiri .headform form .row .input-field .material-icons {
+#biodata .form-biodata .container .row form .kiri .headform .row .input-field .material-icons {
   color: #64AFD2;
 }
-#biodata .form-biodata .container .row .kanan .headform .judul {
+#biodata .form-biodata .container .row form .kanan .headform .judul {
   color: #64AFD2;
 }
-#biodata .form-biodata .container .row .kanan .headform form .row {
+#biodata .form-biodata .container .row form .kanan .headform .row {
   border-left: none;
 }
-#biodata .form-biodata .container .row .kanan .headform form .row .input-field .material-icons {
+#biodata .form-biodata .container .row form .kanan .headform .row .input-field .material-icons {
   color: #64AFD2;
 }
 @media screen and (min-width: 480px) {
-  #biodata .form-biodata .container .row .kanan {
+  #biodata .form-biodata .container .row form .kanan {
     border-left: 1px solid #e6e6e6;
   }
 }
