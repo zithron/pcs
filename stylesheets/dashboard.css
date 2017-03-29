@@ -1,0 +1,111 @@
+html,
+body {
+  background-color: #fafbfc;
+}
+
+header,
+main,
+footer {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width: 992px) {
+  header,
+  main,
+  footer {
+    padding-left: 0;
+  }
+}
+.file-field {
+  position: relative;
+  padding-left: 11.25px;
+  padding-right: 11.25px;
+}
+
+.btn-large-blue {
+  border-radius: 1000px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 15spx;
+  background-color: #64AFD2;
+  color: white;
+  transition: all .3s ease-in-out;
+  border: 1px solid white;
+  box-shadow: none;
+  letter-spacing: .5px;
+  padding: 0 35px;
+  border: 1px solid #64AFD2;
+}
+.btn-large-blue:hover {
+  background-color: transparent;
+  color: #64AFD2;
+  transition: all .3s ease-in-out;
+  box-shadow: none;
+  border: 1px solid white;
+  letter-spacing: .5px;
+  border: 1px solid #64AFD2;
+}
+
+.btn-blue {
+  border-radius: 100px;
+  background-color: #64AFD2;
+  color: white;
+  transition: all .3s ease-in-out;
+  border: 1px solid white;
+  box-shadow: none;
+  border: 1px solid #64AFD2;
+}
+.btn-blue:hover {
+  background-color: transparent;
+  color: #64AFD2;
+  transition: all .3s ease-in-out;
+  box-shadow: none;
+  border: 1px solid white;
+  letter-spacing: .5px;
+  border: 1px solid #64AFD2;
+}
+
+header nav {
+  background: white;
+  border-bottom: 1px solid #dbe2e8;
+  box-shadow: inset 0 0 0 0 #dbe2e8, 0px 2px 1px 0px rgba(47, 61, 73, 0.05);
+}
+header nav .nav-wrapper .page-title {
+  font-size: 20px;
+  color: #2e3d49;
+  margin-left: 20px;
+}
+header ul li .active {
+  border-left: 4px solid white;
+}
+
+#biodata .form-biodata {
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+#biodata .form-biodata .title-biodata {
+  padding-bottom: 30px;
+}
+
+.page-footer {
+  padding-top: 80px;
+  background-color: white;
+  background: #323b4a;
+  z-index: 1;
+  position: relative;
+}
+.page-footer .container .row div a {
+  color: white;
+  padding: 0 5px;
+}
+.page-footer .footer-copyright {
+  padding: 0;
+}
+.page-footer .footer-copyright .container p {
+  color: white;
+  line-height: 1em;
+}
+.page-footer .footer-copyright .container p a {
+  color: white;
+  padding: 0 5px;
+}

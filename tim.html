@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>Dasboard PCS | Joints UGM</title>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel="stylesheet" href="stylesheets/dashboard.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="top-nav">
+                <div class="nav-wrapper"><a class="page-title">Tim</a></div>
+        </nav>
+        <div class="container">
+            <a href="#" data-activates="slide-out" class="button-collapse top-nav full hide-on-large-only"><i class="material-icons">menu</i></a>
+        </div>
+        <ul id="slide-out" class="side-nav fixed" style="background-color: #64AFD2;">
+            <li class="center">
+                <div class="userView">
+                    <!--
+                    <div class="background">
+                        <img src="background.jpg">
+                    </div>
+-->
+                    <a href="#!user"><img class="" src="img/logo.png" style="width:40%;"></a>
+                    <a href="#!name"><span class="white-text name">John Doe</span></a>
+                    <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                </div>
+            </li>
+            <!--
+            <li>
+                <div class="divider" style="padding: 0 1px;"></div>
+            </li>
+-->
+            <li><a class="waves-effect white-text"><i class="zmdi zmdi-home zmdi-hc-2x white-text"></i>Dashboard</a></li>
+            <li><a class="waves-effect white-text active"><i class="zmdi zmdi-accounts-alt zmdi-hc-2x white-text"></i>Tim</a></li>
+            <li><a class="waves-effect white-text"><i class="zmdi zmdi-calendar-note zmdi-hc-2x white-text"></i>Berita</a></li>
+            <li><a class="waves-effect white-text"><i class="zmdi zmdi-card zmdi-hc-2x white-text"></i>Pembayaran</a></li>
+            <li><a class="waves-effect white-text"><i class="zmdi zmdi-settings zmdi-hc-2x white-text"></i>Setting</a></li>
+            <li><a class="waves-effect white-text"><i class="zmdi zmdi-sign-in zmdi-hc-2x white-text"></i>Logout</a></li>
+        </ul>
+    </header>
+    <main>
+<!--        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>-->
+        <div id="biodata">
+        <!-- Isi form -->
+        <div class="form-biodata">
+            <div class="container z-depth-4">
+                <div class="row">
+                    <div class="col s12 m6 l6 kiri">
+                        <div class="headform col s12 ">
+                            <form>
+                                <br>
+                                <div class="headform col s12 ">
+                                    <h6 class="judul">KETUA KELOMPOK</h6> </div>
+                                <div class="row">
+                                    <div class="input-field col s12"> <i class="material-icons prefix">perm_identity</i>
+                                        <input type="text" id="nama1" class="validate" />
+                                        <label for="nama1">Nama Ketua</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12"> <i class="material-icons prefix">email</i>
+                                        <input type="email" id="email1" class="validate" />
+                                        <label for="email1">Email</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12"> <i class="material-icons prefix">contacts</i>
+                                        <input type="text" id="num1" class="validate" />
+                                        <label for="num1">No.WA/LINE</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12"> <i class="material-icons prefix">dns</i>
+                                        <input type="number" id="kelas1" class="validate" min=10 max=12 />
+                                        <label for="kelas1">Kelas</label>
+                                    </div>
+                                </div>
+                                <div class="headform col s12 ">
+                                    <h6 class="judul">ANGGOTA 2</h6> </div>
+                                <div class="row">
+                                    <div class="input-field col s12"> <i class="material-icons prefix">perm_identity</i>
+                                        <input type="text" id="nama2" class="validate" />
+                                        <label for="nama2">Nama</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12"> <i class="material-icons prefix">email</i>
+                                        <input type="email" id="email2" class="validate" />
+                                        <label for="email2">Email</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12"> <i class="material-icons prefix">contacts</i>
+                                        <input type="text" id="num2" class="validate" />
+                                        <label for="num2">No.WA/LINE</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12"> <i class="material-icons prefix">dns</i>
+                                        <input type="number" id="kelas2" class="validate" min=10 max=12 />
+                                        <label for="kelas2">Kelas</label>
+                                    </div>
+                                </div>
+                            </form>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l6 kanan">
+                        <div class="headform col s12 ">
+                            <form action="">
+                                <br>
+                                <div class="headform col s12 ">
+                                    <h6 class="judul">ANGGOTA 3</h6> </div>
+                                <div class="row">
+                                    <div class="input-field col s12"> <i class="material-icons prefix">perm_identity</i>
+                                        <input type="text" id="nama3" class="validate" />
+                                        <label for="nama3">Nama</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12"> <i class="material-icons prefix">email</i>
+                                        <input type="email" id="email3" class="validate" />
+                                        <label for="email3">Email</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12"> <i class="material-icons prefix">contacts</i>
+                                        <input type="text" id="num3" class="validate" />
+                                        <label for="num3">No.WA/LINE</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12"> <i class="material-icons prefix">dns</i>
+                                        <input type="number" id="kelas3" class="validate" min=10 max=12 />
+                                        <label for="kelas3">Kelas</label>
+                                    </div>
+                                </div>
+                                <div class="headform col s12">
+                                    <h6 class="judul">ASAL SEKOLAH </h6> </div>
+                                <div class="row">
+                                    <div class="input-field col s12"> <i class="material-icons prefix">room</i>
+                                        <input type="text" id="sekolah" class="validate" />
+                                        <label for="sekolah">Asal Sekolah</label>
+                                    </div>
+                                </div>
+                                <div class="headform col s12">
+                                    <h6 class="judul">KARTU PELAJAR </h6> </div>
+                                <div class="row">
+                                    <div class="file-field input-field">
+                                        <div class="btn btn-blue">
+                                            <span>File</span>
+                                            <input type="file" multiple>
+                                        </div>
+                                        <div class="file-path-wrapper">
+                                            <input class="file-path validate" type="text" placeholder="KTM Ketua Tim">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="file-field input-field">
+                                        <div class="btn btn-blue">
+                                            <span>File</span>
+                                            <input type="file" multiple>
+                                        </div>
+                                        <div class="file-path-wrapper">
+                                            <input class="file-path validate" type="text" placeholder="Anggota 1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="file-field input-field">
+                                        <div class="btn btn-blue">
+                                            <span>File</span>
+                                            <input type="file" multiple>
+                                        </div>
+                                        <div class="file-path-wrapper">
+                                            <input class="file-path validate" type="text" placeholder="Anggota 2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row center-align">
+                                    <button class="btn-large-blue waves-effect waves-light" type="submit" name="action">SIMPAN</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col s12 m6 l6"> 
+                        <br>    
+                         <div class="headform col s12 ">
+                            
+                </div>
+            </div> -->
+            </div>
+        </div>
+        <!-- End of Isi Form -->
+    </div>
+    </main>
+    
+     <!-- Footer -->
+        <footer class="page-footer">
+            <div class="container  white-text">
+                <div class="row center">
+                    <div class="col s12 m12">
+                        <img src="img/logo.png" style="padding:2em;height:120px">
+                        <br/>
+                        <b>Jogja Information Technology Sessions</b>
+                        <br/> Universitas Gadjah Mada
+                    </div>
+                    <!--
+                <div class="col s12 m12">
+                    <h6>ADDRESS</h6> Fakultas MIPA, UGM
+                </div>
+-->
+                    <div class="col s12 m12">
+                        <!--
+                    <h6>CONTACT</h6>
+                    <h6>
+                        NO HP
+                    </h6>
+                    <a href="mailto:supports@joints.web.id">supports@joints.web.id</a>
+-->
+                        <!--                    <h6>SOCIAL MEDIA</h6>-->
+                        <p><a href="https://facebook.com/jointsugm" class=""><i class="fa fa-facebook"></i></a>
+                            <a href="https://instagram.com/jointsugm" class=""><i class="fa fa-instagram"></i></a>
+                            <a href="https://twitter.com/jointsugm" class=""><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/13177165" class=""><i class="fa fa-linkedin"></i></a>
+                            <!--                    <a href="http://line.me/ti/p/%40kpo1696z" title="LINE Official" class="" style="font-size:1.8em"><b>@</b></a>--></p>
+                    </div>
+                    <!--
+                <div class="col s12 m12">
+                    
+                </div>
+-->
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container center">
+                    <p>
+                        <a href="#">PCS</a> • <a href="#">WMS</a> • <a href="#">Seminar</a> • <a href="#">News</a>
+                    </p>
+                    <p>© 2017 Joints UGM</p>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+    <!--  Scripts-->
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/jquery.viewportchecker.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/timeline.js"></script>
+    <script src="js/jquery.drawsvg.js"></script>
+    <script src="js/joints.js"></script>
+</body>
+
+</html>

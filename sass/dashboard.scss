@@ -1,0 +1,142 @@
+html,
+body {
+    background-color: #fafbfc;
+}
+
+header,
+main,
+footer {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width: 992px) {
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+}
+
+.file-field {
+    position: relative;
+    padding-left: 11.25px;
+    padding-right: 11.25px;
+}
+
+.btn-large-blue {
+    border-radius: 1000px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 15spx;
+    background-color: #64AFD2;
+    color: white;
+    transition: all .3s ease-in-out;
+    border: 1px solid white;
+    box-shadow: none;
+    letter-spacing: .5px;
+    padding: 0 35px;
+    border: 1px solid #64AFD2;
+    &:hover {
+        background-color: transparent;
+        color: #64AFD2;
+        transition: all .3s ease-in-out;
+        box-shadow: none;
+        border: 1px solid white;
+        letter-spacing: .5px;
+        border: 1px solid #64AFD2;
+    }
+}
+
+.btn-blue {
+    border-radius: 100px;
+    // height: 45px;
+    // line-height: 45px;
+    // font-size: 15spx;
+    background-color: #64AFD2;
+    color: white;
+    transition: all .3s ease-in-out;
+    border: 1px solid white;
+    box-shadow: none;
+    // letter-spacing: .5px;
+    // padding: 0 35px;
+    border: 1px solid #64AFD2;
+    &:hover {
+        background-color: transparent;
+        color: #64AFD2;
+        transition: all .3s ease-in-out;
+        box-shadow: none;
+        border: 1px solid white;
+        letter-spacing: .5px;
+        border: 1px solid #64AFD2;
+    }
+}
+
+header {
+    nav {
+        background: white;
+        border-bottom: 1px solid #dbe2e8;
+        box-shadow: inset 0 0 0 0 #dbe2e8, 0px 2px 1px 0px rgba(47, 61, 73, 0.05);
+        .nav-wrapper {
+            .page-title {
+                font-size: 20px;
+                color: #2e3d49;
+                margin-left: 20px;
+            }
+        }
+    }
+    
+    ul {
+        li {
+            .active {
+                border-left: 4px solid white;
+            }
+        }
+    }
+}
+
+//biodata
+#biodata {
+    .form-biodata {
+        padding-top: 40px;
+        padding-bottom: 100px;
+        .title-biodata {
+            padding-bottom: 30px;
+        }
+    }
+}
+
+//footer
+.page-footer {
+    padding-top: 80px;
+    background-color: white;
+    background: #323b4a;
+    //    -webkit-clip-path: url("#clipping");
+    //    clip-path: url("#clipping");
+    z-index: 1;
+    position: relative;
+    //    padding-bottom: 100px;
+    .container {
+        .row {
+            div {
+                a {
+                    color: white;
+                    padding: 0 5px;
+                }
+            }
+        }
+    }
+    .footer-copyright {
+        padding: 0;
+
+        .container {
+            p {
+                color: white;
+                line-height: 1em;
+                a {
+                    color: white;
+                    padding: 0 5px;
+                }
+            }
+        }
+    }
+}
