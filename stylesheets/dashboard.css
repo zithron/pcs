@@ -22,6 +22,10 @@ footer {
   padding-right: 11.25px;
 }
 
+.royal-text {
+  color: #4183D7;
+}
+
 .btn-large-blue {
   border-radius: 1000px;
   height: 45px;
@@ -80,7 +84,8 @@ header ul li .active {
 }
 
 #dashboard {
-  padding-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 100px;
 }
 #dashboard .container {
   position: relative;
@@ -101,7 +106,7 @@ header ul li .active {
 }
 
 #biodata .form-biodata {
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 #biodata .form-biodata .container .row {
@@ -132,7 +137,8 @@ header ul li .active {
 }
 
 #pembayaran {
-  padding-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 100px;
 }
 #pembayaran .container {
   position: relative;
@@ -152,25 +158,75 @@ header ul li .active {
   padding: 0px;
 }
 
-.page-footer {
-  padding-top: 80px;
-  background-color: white;
-  background: #323b4a;
-  z-index: 1;
+#news {
+  padding-top: 35px;
+  padding-bottom: 100px;
+}
+#news .container .row .col .card .card-image .date {
+  color: #ffffff;
+  position: absolute;
+  font-size: 15px;
+  font-weight: 400;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  background-color: #64AFD2;
+}
+#news .container .row .col .card .card-content {
+  padding-top: 10px;
+}
+#news .container .row .col .card .card-content .card-title {
+  font-weight: 300;
+  color: #64AFD2;
+  line-height: 30px;
+}
+#news .container .row .col .card .card-action {
+  z-index: initial;
+}
+
+footer {
+  bottom: 0;
+  background-color: #fafbfc;
+  border-top: 1px solid #dbe2e8;
+}
+footer .container .row {
+  margin-bottom: 0;
+}
+footer .container .row .col .copyright {
+  color: #2e3d49;
+  padding-top: 6px;
+}
+@media screen and (max-width: 480px) {
+  footer .container .row .col .copyright {
+    text-align: center;
+  }
+}
+footer .container .row .col .social-media {
   position: relative;
+  font-size: 17px;
+  display: flex;
+  flex-direction: row;
+  color: #2e3d49;
+  padding: 10px;
+  float: right;
 }
-.page-footer .container .row div a {
-  color: white;
-  padding: 0 5px;
+@media screen and (max-width: 480px) {
+  footer .container .row .col .social-media {
+    float: none;
+    justify-content: center;
+  }
 }
-.page-footer .footer-copyright {
-  padding: 0;
+footer .container .row .col .social-media .social-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  transition: border-radius .3s, background-color .5s;
+  background-color: transparent;
+  margin-right: 5px;
 }
-.page-footer .footer-copyright .container p {
-  color: white;
-  line-height: 1em;
-}
-.page-footer .footer-copyright .container p a {
-  color: white;
-  padding: 0 5px;
+footer .container .row .col .social-media .social-wrapper a {
+  color: #2e3d49;
+  padding: 20%;
 }

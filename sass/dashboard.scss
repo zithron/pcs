@@ -31,6 +31,10 @@ footer {
     padding-right: 11.25px;
 }
 
+.royal-text {
+    color: $royalblue;
+}
+
 .btn-large-blue {
     border-radius: 1000px;
     height: 45px;
@@ -103,7 +107,8 @@ header {
 
 //dasboard
 #dashboard {
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 100px;
     .container {
         position: relative;
         .title-card {
@@ -131,7 +136,7 @@ header {
 //biodata
 #biodata {
     .form-biodata {
-        padding-top: 40px;
+        padding-top: 50px;
         padding-bottom: 100px;
         .container {
             .row {
@@ -178,7 +183,8 @@ header {
 
 //pembayaran
 #pembayaran {
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 100px;
     .container {
         position: relative;
         .title-card {
@@ -203,35 +209,84 @@ header {
     }
 }
 
-//footer
-.page-footer {
-    padding-top: 80px;
-    background-color: white;
-    background: #323b4a;
-    //    -webkit-clip-path: url("#clipping");
-    //    clip-path: url("#clipping");
-    z-index: 1;
-    position: relative;
-    //    padding-bottom: 100px;
+//berita
+#news {
+    padding-top: 35px;
+    padding-bottom: 100px;
     .container {
         .row {
-            div {
-                a {
-                    color: white;
-                    padding: 0 5px;
+            .col {
+                .card {
+                    .card-image {
+                        .date {
+                            color: #ffffff;
+                            position: absolute;
+                            font-size: 15px;
+                            font-weight: 400;
+                            bottom: 0;
+                            left: 0;
+                            padding: 5px;
+                            background-color: $niceblue;
+                        }
+                    }
+                    .card-content {
+                        padding-top: 10px;
+                        .card-title {
+                            font-weight: 300;
+                            color: $niceblue;
+                            line-height: 30px;
+                        }
+                    }
+                    .card-action {
+                        z-index: initial;
+                    }
                 }
             }
         }
     }
-    .footer-copyright {
-        padding: 0;
-        .container {
-            p {
-                color: white;
-                line-height: 1em;
-                a {
-                    color: white;
-                    padding: 0 5px;
+}
+
+footer {
+    bottom: 0;
+    background-color: #fafbfc;
+    border-top: 1px solid #dbe2e8;
+    .container {
+        .row {
+            margin-bottom: 0;
+            .col {
+                .copyright {
+                    color: #2e3d49;
+                    padding-top: 6px;
+                    @media screen and (max-width: 480px) {
+                        text-align: center;
+                    }
+                }
+                .social-media {
+                    position: relative;
+                    font-size: 17px;
+                    display: flex;
+                    flex-direction: row;
+                    color: #2e3d49;
+                    padding: 10px;
+                    float: right;
+                    @media screen and (max-width: 480px) {
+                        float: none;
+                        justify-content: center;
+                    }
+                    .social-wrapper {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 50px;
+                        height: 50px;
+                        transition: border-radius .3s, background-color .5s;
+                        background-color: transparent;
+                        margin-right: 5px;
+                        a {
+                            color: #2e3d49;
+                            padding: 20%;
+                        }
+                    }
                 }
             }
         }
