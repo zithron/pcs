@@ -4,6 +4,7 @@
         $('.button-collapse').sideNav();
         $('.parallax').parallax();
         $('.collapsible').collapsible();
+         $('select').material_select();
 
 
     }); // end of document ready

@@ -83,8 +83,10 @@ header ul li .active {
   padding-top: 40px;
   padding-bottom: 100px;
 }
-#biodata .form-biodata .title-biodata {
-  padding-bottom: 30px;
+@media screen and (min-width: 480px) {
+  #biodata .form-biodata .container .row .kanan {
+    border-left: 1px solid #e6e6e6;
+  }
 }
 
 .page-footer {
