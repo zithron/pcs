@@ -201,14 +201,29 @@ nav ul li a:hover:after {
   margin-top: -230px;
   z-index: 3;
   position: relative;
-  height: 500px;
+  height: auto;
+}
+@media screen and (max-width: 480px) {
+  #about .container .section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -260px;
+  }
 }
 
 #feature {
   padding: 100px 0;
+  margin-top: -50px;
   background: linear-gradient(135deg, #4183D7, #85d8ce);
   color: white;
   z-index: 2;
+}
+@media screen and (max-width: 480px) {
+  #feature .container .section {
+    margin-top: 50px;
+  }
 }
 
 #timeline {
@@ -233,7 +248,7 @@ nav ul li a:hover:after {
   padding: 100px 0;
 }
 #sponsor .container {
-  background: linear-gradient(135deg, #4183D7, #85d8ce);
+  background: white;
 }
 
 .page-footer {

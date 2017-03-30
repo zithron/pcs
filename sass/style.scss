@@ -236,8 +236,15 @@ nav {
             margin-top: -230px;
             z-index: 3;
             position: relative;
-            height: 500px;
+            height: auto;
             //            padding: 50px;
+            @media screen and (max-width: $break-small) {
+                padding-top: 30px;
+                padding-bottom: 30px;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-top: -260px;
+            }
         }
     }
 }
@@ -245,11 +252,16 @@ nav {
 //feature
 #feature {
     padding: 100px 0;
+    margin-top: -50px;
     background: linear-gradient(135deg, #4183D7, #85d8ce);
     color: white;
     z-index: 2;
     .container {
-        .section {}
+        .section {
+            @media screen and (max-width: $break-small) {
+                margin-top: 50px;
+            }
+        }
     }
 }
 
@@ -280,7 +292,7 @@ nav {
     background-color: white;
     padding: 100px 0;
     .container {
-        background: linear-gradient(135deg, #4183D7, #85d8ce);
+        background: white;
         .row {}
     }
 }
