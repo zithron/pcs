@@ -192,6 +192,9 @@ header ul li .active {
   border-left: none;
   padding: 0px;
 }
+#dashboard .container .row .col .collection {
+  border: none;
+}
 
 #biodata .form-biodata {
   padding-top: 50px;
