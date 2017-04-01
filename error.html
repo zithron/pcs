@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+    <link rel="stylesheet" href="css/error.css">
+    <title>ERROR</title>
+</head>
+
+<body class="bodi">
+    <svg class="svg" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 27093 20320" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+            <style type="text/css">
+            <![CDATA[ .str0 {
+                stroke: white;
+                stroke-width: 79.37
+            }
+            
+            .fil0 {
+                fill: none
+            }
+            
+            ]]>
+            </style>
+        </defs>
+        <g id="Layer_x0020_1">
+            <metadata id="CorelCorpID_0Corel-Layer" />
+            <circle class="fil0 str0" cx="3797" cy="3426" r="1720" />
+            <circle class="fil0 str0" cx="20836" cy="4008" r="1323" />
+            <circle class="fil0 str0" cx="-2289" cy="11734" r="741" />
+            <circle class="fil0 str0" cx="27345" cy="781" r="847" />
+            <circle class="fil0 str0" cx="-4194" cy="17926" r="900" />
+            <circle class="fil0 str0" cx="23482" cy="14486" r="212" />
+            <circle class="fil0 str0" cx="11470" cy="304" r="794" />
+            <circle class="fil0 str0" cx="16126" cy="1733" r="370" />
+            <circle class="fil0 str0" cx="-4352" cy="7766" r="2540" />
+            <circle class="fil0 str0" cx="17978" cy="20307" r="2805" />
+            <circle class="fil0 str0" cx="-489" cy="-66" r="635" />
+            <circle class="fil0 str0" cx="-2553" cy="2580" r="794" />
+            <circle class="fil0 str0" cx="28826" cy="7924" r="2275" />
+            <circle class="fil0 str0" cx="1225" cy="16994" r="1667" />
+            <circle class="fil0 str0" cx="28244" cy="16073" r="1376" />
+        </g>
+    </svg>
+    <div class="main mainerror">
+        <div class="main-content">
+            <h1 class="404">404</h1>
+            <h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </h4> <u><a href="#" class="back"><h5><i class="material-icons iconLeft">chevron_left</i>Go Back</h5></a></u> </div>
+    </div>
+    <!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> -->
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/jquery.drawsvg.min.js"></script>
+<!--    <script src="js/jalan.js"></script>-->
+    <script>
+        var count = 0,
+            $svg = $('svg').drawsvg({
+                callback: function() {
+                    $('#log').html('<p>Animation complete! <strong>' + (count++) + '</strong></p>');
+                    animate();
+                }
+            });
+
+        function animate() {
+            $svg.drawsvg('animate');
+        }
+
+        animate();
+    </script>
+</body>
+
+</html>

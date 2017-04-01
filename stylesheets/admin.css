@@ -1,0 +1,123 @@
+header,
+main,
+footer {
+  padding-left: 300px;
+}
+
+table.highlight > tbody > tr:hover {
+  background-color: #bbdefb;
+}
+
+@media only screen and (max-width: 992px) {
+  header,
+  main,
+  footer {
+    padding-left: 0;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 85%;
+  }
+}
+header nav {
+  background: white;
+  border-bottom: 1px solid #dbe2e8;
+  box-shadow: inset 0 0 0 0 #dbe2e8, 0px 2px 1px 0px rgba(47, 61, 73, 0.05);
+}
+header nav .nav-wrapper .page-title {
+  font-size: 20px;
+  color: #2e3d49;
+  margin-left: 20px;
+}
+header ul li .active {
+  border-left: 4px solid white;
+}
+
+#admin-team {
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+#admin-pengumuman {
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+#admin-peserta {
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+#admin-edit-peserta {
+  padding-top: 35px;
+  padding-bottom: 100px;
+}
+#admin-edit-peserta .container .row .col .card .card-image .date {
+  color: #ffffff;
+  position: absolute;
+  font-size: 15px;
+  font-weight: 400;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  background-color: #64AFD2;
+}
+#admin-edit-peserta .container .row .col .card .card-content {
+  padding-top: 10px;
+}
+#admin-edit-peserta .container .row .col .card .card-content .card-title {
+  font-weight: 300;
+  color: #64AFD2;
+  line-height: 30px;
+}
+#admin-edit-peserta .container .row .col .card .card-action {
+  z-index: initial;
+}
+
+footer {
+  bottom: 0;
+  background-color: #fafbfc;
+  border-top: 1px solid #dbe2e8;
+}
+footer .container .row {
+  margin-bottom: 0;
+}
+footer .container .row .col .copyright {
+  color: #2e3d49;
+  padding-top: 6px;
+}
+@media screen and (max-width: 480px) {
+  footer .container .row .col .copyright {
+    text-align: center;
+  }
+}
+footer .container .row .col .social-media {
+  position: relative;
+  font-size: 17px;
+  display: flex;
+  flex-direction: row;
+  color: #2e3d49;
+  padding: 10px;
+  float: right;
+}
+@media screen and (max-width: 480px) {
+  footer .container .row .col .social-media {
+    float: none;
+    justify-content: center;
+  }
+}
+footer .container .row .col .social-media .social-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  transition: border-radius .3s, background-color .5s;
+  background-color: transparent;
+  margin-right: 5px;
+}
+footer .container .row .col .social-media .social-wrapper a {
+  color: #2e3d49;
+  padding: 20%;
+}
