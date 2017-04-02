@@ -320,7 +320,7 @@ nav {
     .container {
         .section {
             @media screen and (max-width: $break-small) {
-                margin-top: 50px;
+                margin-top: 90px;
             }
         }
     }
@@ -337,8 +337,12 @@ nav {
 //contact
 #contact {
     color: white;
+    position: relative;
+    z-index: 10;
     .container {
         .section {
+            padding-top: 50px;
+            padding-bottom: 50px;
             border-radius: 5px;
             background: linear-gradient(135deg, #4183D7, #85d8ce);
             margin-top: -80px;
@@ -352,6 +356,8 @@ nav {
 #sponsor {
     background-color: white;
     padding: 100px 0;
+    position: relative;
+    z-index: -10;
     .container {
         background: white;
         .row {}

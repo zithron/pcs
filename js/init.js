@@ -5,6 +5,7 @@
         $('.parallax').parallax();
         $('.collapsible').collapsible();
         $('select').material_select();
+         $('.modal').modal();
 
 
     }); // end of document ready
