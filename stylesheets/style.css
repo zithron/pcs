@@ -285,7 +285,7 @@ nav ul li a:hover:after {
 }
 @media screen and (max-width: 480px) {
   #feature .container .section {
-    margin-top: 90px;
+    margin-top: 120px;
   }
 }
 
@@ -302,12 +302,23 @@ nav ul li a:hover:after {
   z-index: 10;
 }
 #contact .container .section {
+  border-radius: 5px;
   padding-top: 50px;
   padding-bottom: 50px;
-  border-radius: 5px;
   background: linear-gradient(135deg, #4183D7, #85d8ce);
-  margin-top: -80px;
   box-shadow: 5px 5px 50px rgba(67, 38, 100, 0.15);
+  margin-top: -80px;
+  position: relative;
+  height: auto;
+}
+@media screen and (max-width: 480px) {
+  #contact .container .section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -80px;
+  }
 }
 
 #sponsor {
