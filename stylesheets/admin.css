@@ -54,6 +54,12 @@ header ul li .active {
   padding-bottom: 100px;
 }
 
+#admin-statistik {
+  padding-top: 30px;
+  padding-bottom: 100px;
+  background-color: #fafbfc;
+}
+
 #admin-edit-peserta {
   padding-top: 35px;
   padding-bottom: 100px;
