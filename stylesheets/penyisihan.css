@@ -50,6 +50,30 @@ footer {
   border: 1px solid #64AFD2;
 }
 
+.btn-large-yellow {
+  border-radius: 1000px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 15spx;
+  background-color: #fbc02d;
+  color: white;
+  transition: all .3s ease-in-out;
+  border: 1px solid white;
+  box-shadow: none;
+  letter-spacing: .5px;
+  padding: 0 35px;
+  border: 1px solid #fbc02d;
+}
+.btn-large-yellow:hover {
+  background-color: transparent;
+  color: #fbc02d;
+  transition: all .3s ease-in-out;
+  box-shadow: none;
+  border: 1px solid white;
+  letter-spacing: .5px;
+  border: 1px solid #fbc02d;
+}
+
 .btn-large-red {
   border-radius: 1000px;
   height: 45px;
@@ -156,6 +180,11 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   color: #64afd2;
 }
 
+.side-nav {
+  width: 88px;
+  box-shadow: none;
+}
+
 header nav {
   background: white;
   border-bottom: 1px solid #dbe2e8;
@@ -168,6 +197,12 @@ header nav .nav-wrapper .page-title {
 }
 header ul li .active {
   border-left: 4px solid white;
+}
+header .second-side-nav li {
+  border-bottom: 1px solid #b5d2e0;
+}
+header .second-side-nav li .active {
+  border: 1px dashed #FAFBFC;
 }
 
 #dashboard {
@@ -214,6 +249,10 @@ header ul li .active {
   border-left: 3px solid #64AFD2;
   padding: 25px;
 }
+#penyisihan .container .row .col form .row {
+  border-left: none;
+  padding: 0px;
+}
 #penyisihan .container .row .col ol li {
   list-style: decimal;
 }
@@ -227,22 +266,22 @@ header ul li .active {
   border-left: 3px solid #64AFD2;
 }
 #biodata .form-biodata .container .row form .kiri .headform .judul {
-  color: #64AFD2;
+  color: #7dbddb;
 }
 #biodata .form-biodata .container .row form .kiri .headform .row {
   border-left: none;
 }
 #biodata .form-biodata .container .row form .kiri .headform .row .input-field .material-icons {
-  color: #64AFD2;
+  color: #7dbddb;
 }
 #biodata .form-biodata .container .row form .kanan .headform .judul {
-  color: #64AFD2;
+  color: #7dbddb;
 }
 #biodata .form-biodata .container .row form .kanan .headform .row {
   border-left: none;
 }
 #biodata .form-biodata .container .row form .kanan .headform .row .input-field .material-icons {
-  color: #64AFD2;
+  color: #7dbddb;
 }
 @media screen and (min-width: 480px) {
   #biodata .form-biodata .container .row form .kanan {
@@ -323,14 +362,14 @@ header ul li .active {
   bottom: 0;
   left: 0;
   padding: 5px;
-  background-color: #64AFD2;
+  background-color: #7dbddb;
 }
 #news .container .row .col .card .card-content {
   padding-top: 10px;
 }
 #news .container .row .col .card .card-content .card-title {
   font-weight: 300;
-  color: #64AFD2;
+  color: #7dbddb;
   line-height: 30px;
 }
 #news .container .row .col .card .card-action {
