@@ -261,12 +261,13 @@ nav {
 //homepage
 #index-banner {
     background-color: #f3f6fc;
-    background: linear-gradient(135deg, #4183D7, #85d8ce);
+    background: linear-gradient(135deg, rgba(65, 131, 215, 0.97), rgba(133, 216, 206, 0.97)), url(../img/coding.jpg);
+    background-size: cover;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
     -webkit-clip-path: url("#clipping");
     clip-path: url("#clipping");
-    z-index: 1;
+    z-index: 101;
     position: relative;
     padding-bottom: 100px;
     .section {
@@ -295,7 +296,7 @@ nav {
             box-shadow: 5px 5px 50px rgba(67, 38, 100, 0.15);
             //            background-color: white;
             margin-top: -230px;
-            z-index: 3;
+            z-index: 102;
             position: relative;
             height: auto;
             //            padding: 50px;
@@ -320,7 +321,7 @@ nav {
     .container {
         .section {
             @media screen and (max-width: $break-small) {
-                margin-top: 90px;
+                margin-top: 120px;
             }
         }
     }
@@ -341,13 +342,21 @@ nav {
     z-index: 10;
     .container {
         .section {
+            border-radius: 5px;
             padding-top: 50px;
             padding-bottom: 50px;
-            border-radius: 5px;
             background: linear-gradient(135deg, #4183D7, #85d8ce);
-            margin-top: -80px;
             box-shadow: 5px 5px 50px rgba(67, 38, 100, 0.15);
-            .row {}
+            margin-top: -80px;
+            position: relative;
+            height: auto;
+            @media screen and (max-width: $break-small) {
+                padding-top: 30px;
+                padding-bottom: 30px;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-top: -80px;
+            }
         }
     }
 }
