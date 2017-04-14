@@ -236,7 +236,8 @@ nav ul li a:hover:after {
 
 #index-banner {
   background-color: #f3f6fc;
-  background: linear-gradient(135deg, rgba(65, 131, 215, 0.8), rgba(133, 216, 206, 0.8)), url(../img/hero_examples_20.png);
+  background: linear-gradient(135deg, rgba(65, 131, 215, 0.95), rgba(133, 216, 206, 0.95)), url(../img/coding.jpg);
+  background-size: cover;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   -webkit-clip-path: url("#clipping");
