@@ -195,6 +195,12 @@ header nav .nav-wrapper .page-title {
   color: #2e3d49;
   margin-left: 20px;
 }
+header nav .nav-wrapper .timer {
+  margin-right: 20px;
+  position: absolute;
+  right: 0;
+  color: #2e3d49;
+}
 header ul li .active {
   border-left: 4px solid white;
 }

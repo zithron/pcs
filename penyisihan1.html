@@ -22,7 +22,10 @@
     <header>
         <nav class="top-nav">
             <a href="#" data-activates="slide-out" class="button-collapse top-nav full hide-on-large-only"><i class="material-icons royal-text">menu</i></a>
-            <div class="nav-wrapper"><a class="page-title">Penyisihan</a></div>
+            <div class="nav-wrapper">
+                <a class="page-title">Penyisihan</a>
+                <span id="demo" class="timer"></span>
+            </div>
         </nav>
         <ul id="slide-out" class="side-nav fixed" style="background-color: #64AFD2; right: 0;">
             <li class="center">
@@ -149,5 +152,36 @@
     <script src="js/jquery-2.1.4.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
+    <!-- Waktu -->
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jan 5, 2018 15:37:25").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+            // Get todays date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now an the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Output the result in an element with id="demo"
+            document.getElementById("demo").innerHTML = days + "d " + hours + "h " +
+                minutes + "m " + seconds + "s ";
+
+            // If the count down is over, write some text 
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
 
 </body>
