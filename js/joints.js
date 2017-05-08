@@ -19,6 +19,15 @@ $(document).ready(function () {
     var $piala = $('.piala svg').drawsvg({
         easing: "easeInOutQuart",
     });
+    var $map = $('.map svg').drawsvg({
+        easing: "easeInOutQuart",
+        duration: 3000,
+    });
+    var $jam = $('.jam svg').drawsvg({
+        easing: "easeInOutQuart",
+        duration: 3000,
+    })
+    
     /*RUN*/
     function animate() {
         $svg.drawsvg('animate');
@@ -42,6 +51,18 @@ $(document).ready(function () {
         callback: function () {
             $piala.drawsvg('animate');
         }
-    }, ];
+    }, {
+        selector: '.map',
+        offset: 300,
+        callback: function() {
+            $map.drawsvg('animate');
+        }
+    }, {
+        selector: '.jam',
+        offset: 300,
+        callback: function() {
+            $jam.drawsvg('animate');
+        }
+    }];
     Materialize.scrollFire(options);
 });

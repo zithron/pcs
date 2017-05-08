@@ -24,13 +24,8 @@ h6 {
   box-shadow: 0 15px 35px rgba(50, 50, 93, 0.03), 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 
-.title {
-  margin-bottom: 50px;
-}
-
 .title-white {
   color: white;
-  margin-bottom: 50px;
 }
 
 .title-blue {
@@ -377,6 +372,15 @@ nav ul li:last-child a:hover:after {
 }
 #sponsor .container {
   background: white;
+}
+#sponsor .container .row .col img {
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+#sponsor .container .row .col img:hover {
+  filter: grayscale(0%);
+  transition: all .3s ease-in-out;
 }
 
 .page-footer {
