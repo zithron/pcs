@@ -7,7 +7,13 @@ body {
 }
 
 p {
+  font-size: 15px;
+}
+
+h6 {
   font-size: 18px;
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
 
 .royal-text {
@@ -24,6 +30,10 @@ p {
 
 .title-white {
   text-align: center;
+}
+
+.title-blue {
+  color: #64AFD2;
 }
 
 .btn-large {
@@ -306,9 +316,6 @@ nav ul li:last-child a:hover:after {
 #speakers .container .section .row {
   margin-bottom: 20px;
 }
-#speakers .container .section .row .col .card-stacked .card-content p {
-  font-size: 15px;
-}
 
 #feature {
   padding: 100px 0;
@@ -323,7 +330,7 @@ nav ul li:last-child a:hover:after {
 }
 
 #venue {
-  background-color: #F9F9F9;
+  background-color: #F3F6FC;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -362,7 +369,6 @@ nav ul li:last-child a:hover:after {
     padding-bottom: 30px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-top: -80px;
   }
 }
 

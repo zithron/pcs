@@ -24,9 +24,14 @@ $break-large: 1200px;
 //reusable
 
 p {
-    font-size: 18px;
+    font-size: 15px;
 }
 
+h6 {
+    font-size: 18px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
 .royal-text {
     color: $royalblue;
 }
@@ -42,6 +47,10 @@ p {
 
 .title-white {
     text-align: center;
+}
+
+.title-blue {
+    color: #64AFD2;
 }
 
 .btn-large {
@@ -343,9 +352,7 @@ nav {
                 .col {
                     .card-stacked {
                         .card-content {
-                            p {
-                                font-size: 15px;
-                            }
+                            
                         }
                     }
                 }
@@ -379,7 +386,7 @@ nav {
 
 //venue
 #venue {
-    background-color: #F9F9F9;
+    background-color: #F3F6FC;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -415,12 +422,19 @@ nav {
             //            margin-top: -80px;
             position: relative;
             height: auto;
+            .row {
+                .col {
+                    p {
+//                        font-size: 18px;
+                    }
+                }
+            }
             @media screen and (max-width: $break-small) {
                 padding-top: 30px;
                 padding-bottom: 30px;
                 padding-left: 10px;
                 padding-right: 10px;
-                margin-top: -80px;
+//                margin-top: -80px;
             }
         }
     }
