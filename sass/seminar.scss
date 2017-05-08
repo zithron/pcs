@@ -22,7 +22,6 @@ $break-large: 1200px;
 }
 
 //reusable
-
 p {
     font-size: 15px;
 }
@@ -32,6 +31,7 @@ h6 {
     margin-top: 18px;
     margin-bottom: 18px;
 }
+
 .royal-text {
     color: $royalblue;
 }
@@ -42,12 +42,12 @@ h6 {
 
 .title {
     //    text-align: center;
-    margin-bottom: 50px;
+    //    margin-bottom: 50px;
 }
 
 .title-white {
     color: white;
-    margin-bottom: 50px;
+    //    margin-bottom: 50px;
 }
 
 .title-blue {
@@ -135,7 +135,7 @@ h6 {
     text-transform: none;
     // letter-spacing: .5px;
     // padding: 0 35px;
-//    border: 1px solid white;
+    //    border: 1px solid white;
     &:hover {
         height: 38px;
         line-height: 38px;
@@ -236,10 +236,10 @@ textarea.materialize-textarea:focus:not([readonly])+label {
 
 //navbar
 nav {
-    box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
-//    background-color: transparent;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    //    background-color: transparent;
     background-color: #ffffff;
-//    box-shadow: none;
+    //    box-shadow: none;
     ul {
         li {
             .active {
@@ -321,7 +321,7 @@ nav {
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     -webkit-clip-path: url("#clipping");
     clip-path: url("#clipping");
-//    z-index: 101;
+    //    z-index: 101;
     position: relative;
     padding-bottom: 100px;
     .section {
@@ -350,9 +350,7 @@ nav {
                 margin-bottom: 20px;
                 .col {
                     .card-stacked {
-                        .card-content {
-                            
-                        }
+                        .card-content {}
                     }
                 }
             }
@@ -373,7 +371,7 @@ nav {
     margin-top: 50px;
     background: linear-gradient(135deg, #4183D7, #85d8ce);
     color: white;
-//    z-index: 2;
+    //    z-index: 2;
     .container {
         .section {
             @media screen and (max-width: $break-small) {
@@ -410,7 +408,7 @@ nav {
     padding-bottom: 50px;
     position: relative;
     background: linear-gradient(135deg, #4183D7, #85d8ce);
-//    z-index: 10;
+    //    z-index: 10;
     .container {
         .section {
             border-radius: 5px;
@@ -424,7 +422,7 @@ nav {
             .row {
                 .col {
                     p {
-//                        font-size: 18px;
+                        //                        font-size: 18px;
                     }
                 }
             }
@@ -433,7 +431,7 @@ nav {
                 padding-bottom: 30px;
                 padding-left: 10px;
                 padding-right: 10px;
-//                margin-top: -80px;
+                //                margin-top: -80px;
             }
         }
     }
@@ -444,10 +442,22 @@ nav {
     background-color: white;
     padding: 100px 0;
     position: relative;
-//    z-index: -10;
+    //    z-index: -10;
     .container {
         background: white;
-        .row {}
+        .row {
+            .col {
+                img {
+                    filter: grayscale(100%);
+                    cursor: pointer;
+                    transition: all .3s ease-in-out;
+                    &:hover {
+                        filter: grayscale(0%);
+                        transition: all .3s ease-in-out;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -462,7 +472,7 @@ nav {
     clip-path: url("#clipping1");
     //    -webkit-clip-path: url("#clipping");
     //    clip-path: url("#clipping");
-//    z-index: 1;
+    //    z-index: 1;
     position: relative;
     //    padding-bottom: 100px;
     .container {
