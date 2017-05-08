@@ -41,12 +41,12 @@
         <li><a href="#" class="black-text">Seminar</a></li>
         <li><a href="#" class="black-text">PCS</a></li>
         <li><a href="#" class="black-text">News</a></li>
-        <li><a class="btn waves-effect waves-light secondary-btn">Login</a></li>
+        <li><a href="#" class="btn btn-blue waves-effect waves-light secondary-btn">Get tickets</a></li>
     </ul>
     <!-- end of navbar for mobile -->
 
     <!-- Homepage -->
-    <div id="index-banner" class="white-text" style="z-index: 100007;">
+    <div id="index-banner" class="white-text">
         <div class="section no-pad-bot">
             <div class="container">
                 <br>
@@ -87,24 +87,25 @@
                     <div class="col l6 s12">
                         <div class="card horizontal">
                             <div class="card-image">
-                                <img src="img/paul-chen.jpg">
+                                <img src="img/paul-chen.jpg" class="responsive-img">
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
-                                   <div class="speaker-title"><b>Paul Chen</b></div>
+                                    <div class="speaker-title"><b>Paul Chen</b></div>
                                     <div class="speaker-subtitle light">Head of Solution Architect <br> at Amazon Web Services</div>
                                     <a href="https://www.linkedin.com/in/paulchen100/?ppe=1" class=""><i class="fa fa-linkedin"></i></a>
                                 </div>
                                 <div class="card-action">
-                                    <a href="">Learn more</a>
+                                    <a href="#modal2">Learn more</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col l6 s12">
+
                         <div class="card horizontal">
                             <div class="card-image">
-                                <img src="img/andika-kurniantoro.jpg" height="216px" class="responsive-img">
+                                <img src="img/andikakurniantoro.png" class="responsive-img">
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
@@ -113,7 +114,7 @@
                                     <a href="https://www.linkedin.com/in/andikakurniantoro/?ppe=1" class=""><i class="fa fa-linkedin"></i></a>
                                 </div>
                                 <div class="card-action">
-                                    <a href="">Learn more</a>
+                                    <a href="#modal1">Learn more</a>
                                 </div>
                             </div>
                         </div>
@@ -124,163 +125,20 @@
         </div>
     </div>
 
-    <!-- Section Parallax -->
-
-
-    <!--
-    <div class="parallax-container valign-wrapper">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <div class="row center">
-                    <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-                </div>
-            </div>
-        </div>
-        <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
-    </div>
--->
-
-
-
-    <!-- Contact -->
-    <div id="feature">
-        <div class="container">
-            <div class="section">
-                <div class="row center">
-                    <div class="col l4 s12 center" style="position: relative; height: 200px;">
-                        <!--form-->
-                        <div class="form">
-                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150px" height="150px" viewBox="0 0 5000 5000" enable-background="new 0 0 5000 5000" xml:space="preserve">
-                            <g stroke = "#FFF" stroke-width = "25" fill = "none">
-                                <path d="M4062.5,386.763h-3125c-215.381,0-390.625,173.433-390.625,386.588v3788.561c0,213.154,175.244,386.588,390.625,386.588
-                                    h3125c215.381,0,390.625-173.434,390.625-386.588V773.351C4453.125,560.196,4277.881,386.763,4062.5,386.763z"/>
-                                <path d="M4058.594,696.034c45.303,0,82.031,36.03,82.031,80.478v3782.25c0,44.447-36.729,80.478-82.031,80.478H941.406
-                                    c-45.303,0-82.031-36.03-82.031-80.478V776.502c0-44.438,36.729-80.468,82.031-80.468H4058.594z"/>
-                                <path d="M1953.125,2087.75h-468.75c-86.133,0-156.25-69.393-156.25-154.635v-463.906c0-85.242,70.117-154.635,156.25-154.635h468.75
-                                    c86.133,0,156.25,69.393,156.25,154.635v463.906C2109.375,2018.357,2039.258,2087.75,1953.125,2087.75z M1484.375,1469.209v463.906
-                                    h468.906l-0.156-463.906H1484.375z"/>
-                                <path d="M2578.125,1546.527H2343.75c-43.184,0-78.125-34.581-78.125-77.318s34.941-77.317,78.125-77.317h234.375
-                                    c43.184,0,78.125,34.58,78.125,77.317S2621.309,1546.527,2578.125,1546.527z"/>
-                                <path d="M3515.625,1855.797H2343.75c-43.184,0-78.125-34.58-78.125-77.317s34.941-77.317,78.125-77.317h1171.875
-                                    c43.184,0,78.125,34.58,78.125,77.317S3558.809,1855.797,3515.625,1855.797z"/>
-                                <path d="M3125,2628.973h-781.25c-43.184,0-78.125-34.58-78.125-77.317s34.941-77.317,78.125-77.317H3125
-                                    c43.184,0,78.125,34.58,78.125,77.317S3168.184,2628.973,3125,2628.973z"/>
-                                <path d="M3515.625,2938.243H2343.75c-43.184,0-78.125-34.58-78.125-77.317s34.941-77.318,78.125-77.318h1171.875
-                                    c43.184,0,78.125,34.581,78.125,77.318S3558.809,2938.243,3515.625,2938.243z"/>
-                                <path d="M2656.25,3634.102h-312.5c-43.184,0-78.125-34.581-78.125-77.318s34.941-77.317,78.125-77.317h312.5
-                                    c43.184,0,78.125,34.58,78.125,77.317S2699.434,3634.102,2656.25,3634.102z"/>
-                                <path d="M3515.625,3943.371H2343.75c-43.184,0-78.125-34.58-78.125-77.317s34.941-77.317,78.125-77.317h1171.875
-                                    c43.184,0,78.125,34.58,78.125,77.317S3558.809,3943.371,3515.625,3943.371z"/>
-                                <path d="M2812.5,403.588c-43.184,0-78.125-34.581-78.125-77.318v-77.317c0-42.66-35.02-77.318-78.125-77.318h-312.5
-                                    c-43.105,0-78.125,34.658-78.125,77.318v77.317c0,42.737-34.941,77.318-78.125,77.318s-78.125-34.581-78.125-77.318v-77.317
-                                    C2109.375,121.05,2214.512,17,2343.75,17h312.5c129.238,0,234.375,104.05,234.375,231.953v77.317
-                                    C2890.625,369.007,2855.684,403.588,2812.5,403.588z"/>
-                                <path d="M3359.375,232.128h-1718.75c-43.145,0-78.125,34.619-78.125,77.317v231.953c0,213.503,174.893,386.588,390.625,386.588
-                                    h1093.75c215.732,0,390.625-173.085,390.625-386.588V309.446C3437.5,266.747,3402.52,232.128,3359.375,232.128z"/>
-                                <path d="M1953.125,3092.878h-468.75c-86.133,0-156.25-69.393-156.25-154.635v-463.905c0-85.243,70.117-154.635,156.25-154.635
-                                    h468.75c86.133,0,156.25,69.392,156.25,154.635v463.905C2109.375,3023.485,2039.258,3092.878,1953.125,3092.878z M1484.375,2474.338
-                                    v463.905h468.906l-0.156-463.905H1484.375z"/>
-                                <path d="M1953.125,4098.007h-468.75c-86.133,0-156.25-69.393-156.25-154.636v-463.905c0-85.242,70.117-154.635,156.25-154.635
-                                    h468.75c86.133,0,156.25,69.393,156.25,154.635v463.905C2109.375,4028.614,2039.258,4098.007,1953.125,4098.007z M1484.375,3479.466
-                                    v463.905h468.906l-0.156-463.905H1484.375z"/>
-                                <path d="M1796.875,2860.926c-19.99,0-39.98-7.549-55.234-22.654l-156.25-154.635c-30.518-30.203-30.518-79.135,0-109.337
-                                    s79.961-30.202,110.479,0l101.006,99.972l335.391-331.925c30.518-30.202,79.961-30.202,110.479,0s30.518,79.125,0,109.327
-                                    l-390.625,386.588C1836.855,2853.377,1816.865,2860.926,1796.875,2860.926z"/>
-                            </g>
-                        </svg>
-                            <h5 class="light">Daftarkan Dirimu</h5>
-                        </div>
-
-                        <!--end of form-->
-                    </div>
-                    <div class="col l4 s12 center" style="position: relative; height: 200px;">
-                        <!--monitor-->
-                        <div class="monitor">
-                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150px" height="150px" viewBox="0 0 5000 5000" enable-background="new 0 0 5000 5000" xml:space="preserve">
-                            <g stroke = "#FFF" stroke-width = "25" fill = "none">	 
-                                <path d="M3190.943,2600.054c-20.82,0-41.65-7.939-57.539-23.838c-31.777-31.777-31.777-83.301,0-115.068l467.971-467.96
-                                    l-467.97-467.97c-31.777-31.777-31.777-83.301,0-115.068c31.797-31.787,83.311-31.777,115.078,0l525.499,525.499
-                                    c31.777,31.777,31.777,83.301,0,115.068l-525.499,525.499C3232.594,2592.104,3211.764,2600.054,3190.943,2600.054z"/>
-                                <path d="M1809.086,2600.054c-20.82,0-41.65-7.939-57.529-23.838l-525.5-525.499c-31.777-31.777-31.777-83.301,0-115.068l525.5-525.5
-                                    c31.777-31.777,83.301-31.777,115.068,0c31.777,31.778,31.777,83.302,0,115.069l-467.96,467.97l467.96,467.959
-                                    c31.777,31.777,31.777,83.302,0,115.069C1850.736,2592.104,1829.906,2600.054,1809.086,2600.054z"/>
-                                <path d="M2258.813,2836.148c-8.135,0-16.416-1.23-24.6-3.818c-42.842-13.574-66.572-59.297-52.998-102.148l482.472-1523.119
-                                    c13.564-42.832,59.297-66.572,102.13-52.998c42.842,13.574,66.572,59.297,52.998,102.149l-482.462,1523.118
-                                    C2325.375,2813.99,2293.335,2836.148,2258.813,2836.148z"/>
-                                <path d="M4602.021,241.856H397.989C178.545,241.856,0,420.401,0,639.845v578.39c0,44.941,36.436,81.367,81.367,81.367
-                                    s81.367-36.436,81.367-81.367v-578.39c0-129.727,105.538-235.254,235.255-235.254h4204.031
-                                    c129.728,0,235.255,105.537,235.255,235.254v2777.457H4327.41c-44.941,0-81.367,36.436-81.367,81.367s36.436,81.367,81.367,81.367
-                                    h509.865v149.151c0,129.727-105.537,235.254-235.255,235.254H3084.342H1915.668H397.989c-129.727,0-235.255-105.537-235.255-235.254
-                                    v-149.151H4056.18c44.941,0,81.367-36.436,81.367-81.367s-36.436-81.367-81.367-81.367H162.734V1489.476
-                                    c0-44.941-36.436-81.367-81.367-81.367S0,1444.534,0,1489.476v2239.731c0,219.453,178.545,397.988,397.989,397.988h1394.397
-                                    l-200.138,468.214h-390.958c-44.941,0-81.367,36.436-81.367,81.368c0,44.932,36.436,81.367,81.367,81.367h2597.418
-                                    c44.941,0,81.367-36.436,81.367-81.367c0-44.933-36.436-81.368-81.367-81.368h-390.958l-200.138-468.214h1394.397
-                                    c219.454,0,397.989-178.535,397.989-397.988V639.845C5000.01,420.401,4821.465,241.856,4602.021,241.856z M3230.768,4595.399
-                                    H1769.242l139.043-325.294h1183.449L3230.768,4595.399z"/>
-                                <path d="M2480.2,3674.041c-34.346,8.584-59.727,39.531-61.436,74.902c-3.555,73.574,88.926,113.564,139.941,60.273
-                                    c26.006-27.168,30.059-70.088,8.916-101.416C2548.931,3679.422,2513.101,3665.817,2480.2,3674.041z"/>
-                            </g>
-                        </svg>
-                        </div>
-
-                        <h5 class="light">Kerjakan Soalnya</h5>
-                        <!--end of monitor-->
-                    </div>
-                    <div class="col l4 s12 center" style="position: relative; height: 200px;">
-                        <!--piala-->
-                        <div class="piala">
-                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150px" height="150px" viewBox="0 0 5000 5000" enable-background="new 0 0 5000 5000" xml:space="preserve">
-                              <g stroke = "#FFF" stroke-width = "25" fill = "none">
-                                <path d="M2641.14,3226.211h-282.262c-39.518,0-73.388-33.869-73.388-73.387v-270.979h429.037v270.979
-                                    C2714.527,3192.326,2680.654,3226.211,2641.14,3226.211z"/>
-                                <path d="M4496.713,668.897c-56.447-101.612-169.355-163.72-287.909-163.72h-449.911V347.119H1241.109v152.412H791.197
-                                    c-124.201,0-231.461,62.093-287.907,163.718c-56.445,101.612-45.166,225.813,28.222,321.777l970.181,1150.028
-                                    c176.674,323.633,437.818,606.588,766.856,820.18h462.905c323.518-210.01,581.399-487.071,757.895-803.927l979.124-1160.634
-                                    C4541.878,889.062,4553.157,770.509,4496.713,668.897z M667.009,889.062c-33.872-45.165-39.519-101.611-11.296-146.776
-                                    c28.224-50.813,79.036-79.037,135.483-79.037h449.913v457.274c0,179.539,22.99,356.032,67.122,526.35L667.009,889.062z
-                                     M4332.991,894.71l-643.351,760.326c45.526-172.837,69.252-352.105,69.252-534.513V668.897h449.911
-                                    c56.447,0,107.261,28.224,135.483,79.037C4372.51,798.745,4366.864,849.544,4332.991,894.71z"/>
-                                <path d="M2878.23,3892.342L2878.23,3892.342c-152.425-79.037-248.389-225.814-248.389-395.166v-276.611h-135.482H2370.16v276.611
-                                    c0,169.352-101.611,316.129-248.39,395.166l0,0c-355.646,191.939-558.883,457.271-558.883,739.529V4948h124.202h1750.026v-316.129
-                                    C3437.115,4349.613,3233.893,4084.281,2878.23,3892.342z"/>
-                                <rect x="1173.37" y="81.789" width="2647.628" height="265.33"/>
-                                <circle cx="2500.008" cy="1408.429" r="683.072"/>
-                                <path d="M2285.475,956.802h327.425v903.237h-146.776v-767.755h-186.295V956.802H2285.475z"/>
-                                <rect x="2059.678" y="4343.965" width="875.014" height="282.26"/>
-                            </g>
-                        </svg>
-                        </div>
-
-                        <h5 class="light">Jadilah Juaranya</h5>
-                        <!--end of piala-->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Section Parallax -->
-    <!--
-    <div class="parallax-container valign-wrapper">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <div class="row center">
-                    <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-                </div>
-            </div>
-        </div>
-        <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-    </div>
--->
     <div id="venue">
         <div class="container">
             <div class="section">
-                <h3 class="title">Venue</h3>
+                <h3 class="title-white">Venue</h3>
                 <div class="row">
                     <div class="col l6">
-
+                        <p class="white-text">
+                        <b>Auditorium Fakulltas MIPA Universitas Gadjah Mada</b> 
+                        <br>
+                        Sekip Utara, Bulaksumur, Sinduadi, Mlati, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55281, Indonesia</p>
+                        <a href="https://www.google.com/maps/place/Fakultas+Matematika+dan+Ilmu+Pengetahuan+Alam,+UGM/@-7.7672319,110.3773384,15z/data=!4m2!3m1!1s0x0:0xc7488103a6c22ce2?sa=X&ved=0ahUKEwij2_ayt-DTAhUOTI8KHWptDNMQ_BIIhAEwEQ" class="btn btn-white waves-effect waves-light lighten-1">Open in Google  Maps</a>
                     </div>
                     <div class="col l6">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur obcaecati atque, quas amet! Fugit saepe perferendis veniam expedita veritatis sit dicta, consectetur labore sint quo temporibus vel corporis natus iure.</p>
+
                     </div>
                 </div>
             </div>
@@ -294,11 +152,13 @@
                 <div class="row">
                     <div class="col l6">
                         <ul class="collection">
-                            <li class="collection-item">8.00 AM - Alvin</li>
-                            <li class="collection-item">9.00 AM - Alvin</li>
-                            <li class="collection-item">10.00 AM - Alvin</li>
-                            <li class="collection-item">11.00 AM - Alvin</li>
-                            <li class="collection-item">12.00 AM - Alvin</li>
+                            <li class="collection-item">9.00 AM - Open Gate</li>
+                            <li class="collection-item">10.00 AM - Pembukaan oleh MC</li>
+                            <li class="collection-item">10.30 AM - Sesi 1: Materi</li>
+                            <li class="collection-item">11.45 AM - Sesi 1: Tanya Jawab</li>
+                            <li class="collection-item">11.50 AM - Ishoma</li>
+                            <li class="collection-item">12.20 PM - Sesi 2: Materi</li>
+                            <li class="collection-item">12.50 PM - Sesi 2: Tanya Jawab</li>
                         </ul>
                     </div>
                     <div class="col l6">
@@ -331,12 +191,19 @@
             <div class="section">
                 <h3 class="title">Sponsor</h3>
                 <div class="row">
-                   <div class="col l3 s12">
-                       <img src="img/kurio-red.png" alt="" height="100px" style="filter: grayscale(100%); cursor: pointer;">
-                   </div>
-                   <div class="col l3 s12">
-                       <img src="img/index.png" alt="" height="100px" style="filter: grayscale(100%); cursor: pointer;">
-                   </div>
+                    <div class="col l3 s12">
+                        <img src="img/kuriofix.jpg" alt="" height="100px" style="filter: grayscale(100%); cursor: pointer;">
+                    </div>
+                    <div class="col l3 s12">
+                        <img src="img/index.png" alt="" height="100px" style="filter: grayscale(100%); cursor: pointer;">
+                    </div>
+                </div>
+                <h4>Media Partner</h4>
+                <div class="col l3 s12">
+                    <img src="img/q&a.jpg" alt="" style="filter: grayscale(100%); cursor: pointer;" height="100px">
+                </div>
+                <div class="col l3 s12">
+                    <img src="img/" alt="">
                 </div>
             </div>
         </div>
@@ -407,6 +274,50 @@
             </div>
         </div>
     </footer>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col l6 s12 center">
+                    <img src="img/andikakurniantoro.png" alt="">
+                </div>
+                <div class="col l6 s12">
+                    <div class="speaker-title"><b>Andika Kurmianatoro</b></div>
+                    <div class="speaker-subtitle light">Infrastructure Specialist at Kurio</div>
+                    <a href="https://www.linkedin.com/in/andikakurniantoro/?ppe=1" class=""><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+            <p>Handle server and data center for super-high-load applications since 2007. I have been doing administration of Unix systems, designing and structuring networks. I do High-Availability, performance tuning and virtualization.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+        </div>
+    </div>
+    <div id="modal2" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col l6 s12 center">
+                    <img src="img/paul-chen.jpg" alt="">
+                </div>
+                <div class="col l6 s12">
+                    <div class="speaker-title"><b>Paul Chen</b></div>
+                    <div class="speaker-subtitle light">Head of Solution Architect <br> at Amazon Web Services</div>
+                    <a href="https://www.linkedin.com/in/paulchen100/?ppe=1" class=""><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+            <p>Experienced in building and leading Technical Pre-Sales and Solutions Architecting Teams across ASEAN, Asia Pacific and Japan, C-Level Customer Engagements <br>
+            <br> 
+            Certified AWS Solutions Architect - Associate. 
+            <br> 
+            Certified AWS Developer - Associate 
+            <br>
+            Certified AWS SysOps Administrator - Associate</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+        </div>
+    </div>
 
 
     <!--  Scripts-->

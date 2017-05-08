@@ -46,7 +46,8 @@ h6 {
 }
 
 .title-white {
-    text-align: center;
+    color: white;
+    margin-bottom: 50px;
 }
 
 .title-blue {
@@ -114,39 +115,37 @@ h6 {
     // padding: 0 35px;
     border: 1px solid #64AFD2;
     &:hover {
-        height: 36px;
-        line-height: 36px;
-        font-size: 15px;
         background-color: transparent;
         color: #64AFD2;
         transition: all .3s ease-in-out;
-        box-shadow: none;
         border: 1px solid #64AFD2;
     }
 }
 
 .btn-white {
     border-radius: 100px;
-    height: 36px;
-    line-height: 36px;
+    height: 38px;
+    line-height: 38px;
     font-size: 15px;
     background-color: white;
     color: #64AFD2;
     transition: all .3s ease-in-out;
     border: 1px solid white;
     box-shadow: none;
+    text-transform: none;
     // letter-spacing: .5px;
     // padding: 0 35px;
-    border: 1px solid white;
+//    border: 1px solid white;
     &:hover {
-        height: 36px;
-        line-height: 36px;
+        height: 38px;
+        line-height: 38px;
         font-size: 15px;
         background-color: transparent;
         color: white;
         transition: all .3s ease-in-out;
         box-shadow: none;
         border: 1px solid white;
+        text-transform: none;
         //        letter-spacing: .5px;
         //        border: 1px solid #64AFD2;
     }
@@ -386,7 +385,7 @@ nav {
 
 //venue
 #venue {
-    background-color: #F3F6FC;
+    background: linear-gradient(135deg, #4183D7, #85d8ce);
     padding-top: 100px;
     padding-bottom: 100px;
 }
